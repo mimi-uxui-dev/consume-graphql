@@ -1,6 +1,7 @@
 import React from 'react'
 import { useCharacters } from './../hooks/useCharacters';
 import { Link } from 'react-router-dom'
+
 function CharactersList() {
      const { error, data, loading } = useCharacters()
 
