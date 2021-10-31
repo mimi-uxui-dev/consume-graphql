@@ -11,6 +11,7 @@ const GET_CHARACTER_LOCATIONS = gql`
                }
           }
      }
+     
 `
 
 function Search() {
